@@ -1,7 +1,10 @@
 {
     "title":"猫猫的白日梦想",
-    "subTitle":"我的个人博客",
+    "subTitle":"欢迎来到我的个人博客",
     "avatarUrl":"https://github.githubassets.com/favicons/favicon.svg",
     "GMEEK_VERSION":"last",
-    "startSite": "12/7/2024"
+    "startSite": "2024/7/14",
+    "onePageListNum":10,
+    "bottomText":"转载请注明出处",
+    "UTC":8
 }
