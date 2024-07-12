@@ -1,6 +1,7 @@
 {
-    "title":"Blog Title",
-    "subTitle":"Blog description",
+    "title":"猫猫的白日梦想",
+    "subTitle":"我的个人博客",
     "avatarUrl":"https://github.githubassets.com/favicons/favicon.svg",
-    "GMEEK_VERSION":"last"
+    "GMEEK_VERSION":"last",
+    "startSite": "2024/7/12"
 }
