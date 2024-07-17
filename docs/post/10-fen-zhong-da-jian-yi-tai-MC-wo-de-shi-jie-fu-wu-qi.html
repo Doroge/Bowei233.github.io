@@ -9,9 +9,9 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="> 最近在上班摸鱼的时候发现了一个快速搭建MC服务器的教程，10年前当我还是一个小学生的时候就想要自己开一个服和朋友们一起玩，当时的我啥也不懂，什么内网穿透、服务器之类的概念一窍不通，最后失败了🤣跟着教程很快就搭建了一台MC服务器，也算是弥补一下10年前的遗憾吧。">
+<meta name="description" content="> 最近在上班摸鱼的时候发现了一个快速搭建MC服务器的教程，10年前当我还是一个小学生的时候就想要自己开一个服和朋友们一起玩，但是当时的我啥也不懂，什么内网穿透、服务器之类的概念一窍不通，于是最后就失败了🤣10年后的今天，开服的方式越来越简单便捷，离不开各位开源者的贡献。">
 <meta property="og:title" content="10分钟搭建一台MC我的世界服务器">
-<meta property="og:description" content="> 最近在上班摸鱼的时候发现了一个快速搭建MC服务器的教程，10年前当我还是一个小学生的时候就想要自己开一个服和朋友们一起玩，当时的我啥也不懂，什么内网穿透、服务器之类的概念一窍不通，最后失败了🤣跟着教程很快就搭建了一台MC服务器，也算是弥补一下10年前的遗憾吧。">
+<meta property="og:description" content="> 最近在上班摸鱼的时候发现了一个快速搭建MC服务器的教程，10年前当我还是一个小学生的时候就想要自己开一个服和朋友们一起玩，但是当时的我啥也不懂，什么内网穿透、服务器之类的概念一窍不通，于是最后就失败了🤣10年后的今天，开服的方式越来越简单便捷，离不开各位开源者的贡献。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://CatDayDream.github.io/post/10-fen-zhong-da-jian-yi-tai-MC-wo-de-shi-jie-fu-wu-qi.html">
 <meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
@@ -71,17 +71,17 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
     <div id="content">
 <div class="markdown-body" id="postBody"><blockquote>
-<p>最近在上班摸鱼的时候发现了一个快速搭建MC服务器的教程，10年前当我还是一个小学生的时候就想要自己开一个服和朋友们一起玩，当时的我啥也不懂，什么内网穿透、服务器之类的概念一窍不通，最后失败了🤣跟着教程很快就搭建了一台MC服务器，也算是弥补一下10年前的遗憾吧。</p>
+<p>最近在上班摸鱼的时候发现了一个快速搭建MC服务器的教程，10年前当我还是一个小学生的时候就想要自己开一个服和朋友们一起玩，但是当时的我啥也不懂，什么内网穿透、服务器之类的概念一窍不通，于是最后就失败了🤣10年后的今天，开服的方式越来越简单便捷，离不开各位开源者的贡献。现在自己搭建一台服务器，也算是弥补一下童年遗憾吧。</p>
 </blockquote>
 <h3>第一步：搞一台服务器</h3>
-<p>搭建一个MC服务器肯定得有服务器吧，现在最方便快捷的方式就是云服务器，国内有三大厂商——阿里云、腾讯云和华为云，国外的话就是最大的云厂商——亚马逊云。</p>
-<p>国内的云价格一直都在降，刚好最近阿里云也有个99计划，就是99块钱买一个2核2G，3M带宽，40G云盘的ECS服务器一年，也算是比较便宜，平均一个月就只要8块钱，所以就买了这个。</p>
+<p>搭建一个MC服务器肯定得有服务器吧，现在最方便快捷的方式就是云服务器，国内有三大厂商——阿里云、腾讯云和华为云，国外的话就是最大的云厂商——亚马逊云。一些小公司云也可以用，而且普遍比较便宜，就是不排除跑路的风险（）</p>
+<p>国内的云价格一直都在降，刚好最近阿里云也有个99计划，99块钱买一个2核2G，3M带宽，40G云盘的ECS服务器一年，也算是比较便宜，平均一个月就只要8块钱，所以就买了这个。</p>
 <p>买完之后控制台里就会出现一个ECS实例</p>
 <h3>第二步：搭建服务器环境</h3>
 <blockquote>
-<p>前置条件：安装好SSH客户端软件Xshell，没有安装的话前往：<a href="https://www.xshell.com/zh/xshell/" rel="nofollow">https://www.xshell.com/zh/xshell/</a><br>
-<a href="url">https://www.xshell.com/zh/xshell/</a></p>
+<p>前置条件：安装好SSH客户端软件Xshell，没有安装的话前往下载：<a href="https://www.xshell.com/zh/xshell/" rel="nofollow">https://www.xshell.com/zh/xshell/</a></p>
 </blockquote>
+<p>搭建服务器环境时，就需要一个远程连接云服务器的方式，我们这里使用一款强大的SSH客户机Xshell</p>
 <h3>第三步：MCSM网页面板操作</h3>
 <h3>第四步：开始愉快的玩耍！</h3></div>
 <div style="font-size:small;margin-top:8px;float:right;">转载请注明出处</div>
