@@ -84,7 +84,9 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>前置条件：安装好SSH客户端软件Xshell，没有安装的话前往下载：<a href="https://www.xshell.com/zh/xshell/" rel="nofollow">https://www.xshell.com/zh/xshell/</a><br>
 点击前往MCSM中文文档查看详细：<a href="https://docs.mcsmanager.com/zh_cn/" rel="nofollow">https://docs.mcsmanager.com/zh_cn/</a></p>
 </blockquote>
-<p>搭建服务器环境时，就需要一个远程连接云服务器的方式，我们这里使用一款强大的SSH客户机Xshell，下载完成Xshell后，我们使用密钥对与ECS实例连接，成功连接上ECS后，进行下一步操作。</p>
+<p>搭建服务器环境时，就需要一个远程连接云服务器的方式，我们这里使用一款强大的SSH客户机Xshell，下载完成Xshell后，我们使用密钥对与ECS实例连接，成功连接上ECS后，进行下一步操作。<br>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/f82b253f-e89a-4911-8c7a-6421e0522ace"><img width="425" alt="屏幕截图 2024-07-23 130317" src="https://github.com/user-attachments/assets/f82b253f-e89a-4911-8c7a-6421e0522ace" style="max-width: 100%;"></a><br>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/33c2c558-1089-400c-a740-f1f35519be3e"><img width="419" alt="屏幕截图 2024-07-23 130331" src="https://github.com/user-attachments/assets/33c2c558-1089-400c-a740-f1f35519be3e" style="max-width: 100%;"></a></p>
 <p>接下来我们开始向云服务器中搭建MCSM面板，在Xshell终端中输入以下指令开始MCSM面板的自动安装：<br>
 <code class="notranslate">sudo su -c "wget -qO- https://script.mcsmanager.com/setup_cn.sh | bash"</code><br>
 如果自动安装的脚本失败了，可以尝试手动逐句安装，在MCSM文档中可以找到该安装方式。</p>
